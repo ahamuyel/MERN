@@ -1,0 +1,32 @@
+/* src/components/About.css */
+
+.about {
+    padding: 4rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+  }
+  
+  .about .speach{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    padding: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

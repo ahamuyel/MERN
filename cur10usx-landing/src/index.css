@@ -1,0 +1,36 @@
+/* src/index.css */
+:root {
+  --primary-color: #4a45b1;
+  --light-color: #ffffff;
+  --secondary-color: #f1f0fa;
+  --accent-color: #6c63ff;
+  --text-color: #333333;
+  --text-light-color: #666666;
+  --font-family:  "Nunito", sans-serif;
+
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+  --max-width: 1200px;
+  --padding: 1rem;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-optical-sizing: auto;
+}
+
+a{
+  text-decoration: none;   
+}
+
+
