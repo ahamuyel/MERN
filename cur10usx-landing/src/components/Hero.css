@@ -10,7 +10,7 @@
   text-align: center;
   padding: 0 5%;
   color: var(--text-color);
-  background: linear-gradient(-45deg, #e3fdfd, #b6cdf7, #a6e3e9, #71c9ce);  background-size: 400% 400%;
+  background: linear-gradient(-45deg, #0408e2, #b6cdf7, #e9a6de, #7177ce);  background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
 
