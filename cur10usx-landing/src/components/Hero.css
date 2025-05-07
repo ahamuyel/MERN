@@ -1,15 +1,23 @@
 /* src/components/Hero.css */
 
+/* src/components/Hero.css */
+
 .hero {
-  background: var(--light-color);
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  color: var(--text-color);
+  justify-content: center;
+  text-align: center;
   padding: 0 5%;
-  gap: 3rem;
+  color: var(--text-color);
+  background: linear-gradient(-45deg, #e3fdfd, #b6cdf7, #a6e3e9, #71c9ce);  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .container {
@@ -18,25 +26,13 @@
   text-align: center;
 }
 
-.hero-img {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-img img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-}
-
 .hero-content {
   max-width: 600px;
-  flex: 1;
+  z-index: 1;
+  color: white;
 }
 
 .hero h2 {
-  color:  var(--primary-color);
   font-size: 3rem;
   margin-bottom: 20px;
 }
@@ -46,15 +42,7 @@
   margin-bottom: 30px;
 }
 
-
-.hero-image img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-}
-
 .btn-primary {
-  width: 10rem;
   background-color: var(--accent-color);
   display: inline-block;
   color: white;
